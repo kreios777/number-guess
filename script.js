@@ -60,6 +60,7 @@ function resetGame() {
     console.log(randomNum);
     reset.style.display = 'none';
     guess.value = "";
+    tries = 10;
 
 }
 
